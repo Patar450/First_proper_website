@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<title>Home Page</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--jquey cdn-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	  <!--main js file -->
+	<script src="Javascript/custom.js"></script>
+	</head>
+	<body>
+				<!--Model pop -->
+			<div id="mainpop">
+		    <div id="popup">
+		      <h1>Friendly Reminder</h1>
+		      <p>The Rally first stage will take place in: <br/><strong> Rome, Italy on the 23rd June 2022.</strong></p>
+					<button id='close-btn'>Close</button>
+		    </div>
+		  </div>
+		<header>
+			<!-- Clickable label to show menu if using display smaller than 700px -->
+			<div class="togglearea">
+				<label for="toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+				</label>
+			</div>
+			<nav>
+				<a href="index.html"><img src="assets/images/misc/logo.png" alt="logo icon"></a>
+				<input type="checkbox" id="toggle">
+				<div class="nav-links" id="navLinks" >
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about-us.html">About Us</a></li>
+						<li><a href="our-drivers.html">Our Drivers</a></li>
+						<li><a href="register.html">Register Online</a></li>
+						<li><a href="qanda.html">Q & A</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+						<div>
+						<input id="btnsearchcontrol" class="searchtext" type="text" placeholder="Search?" >
+							<a id="btnsearchiconcontrol" class="searchbtn">
+								<li class="fa fa-search" ></li>
+							</a>
+						</div>
+					</ul>
+				</div>
+			</nav>
+			<div class="text-box">
+				<h1 id="paragraph">World's Popular Vintage Rally Racing.</h1>
+				<p>Welcome to the most popular vintage car rally<br> Would you like to register?</p>
+				<a href="register.html" class="herobtn">Click here to register</a>
+			</div>
+		</header>
+		<!-- content-->
+		<!--image slider start-->
+		<div class="slidercontent">
+			<h1>Pics of 2021 rally!</h1>
+    <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+          <img src="assets/images/cars/car1.jpg" alt="Picture of a front car before the rally started.">
+        </div>
+        <div class="slide">
+          <img src="assets/images/cars/car2.jpg" alt="Picture of the side of a white car">
+        </div>
+        <div class="slide">
+          <img src="assets/images/cars/car3.jpg" alt="Picture of the back of a car.">
+        </div>
+        <div class="slide">
+          <img src="assets/images/cars/car4.jpg" alt="Picture of the front of a red car.">
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+	</div>
+		<footer>
+			<h4>About Us</h4>
+				<p>This website has been created to notify our fans of our passion to the world.</p>
+				<div class="icons">
+					<a href="www.facebook.com" class="fa fa-facebook"></a>
+					<a href="www.twitter.com" class="fa fa-twitter"></a>
+					<a href="www.instagram.com" class="fa fa-instagram"></a>
+					<a href="www.linkedin.com" class="fa fa-linkedin"></a>
+				</div>
+				<p>Creator: Patrick Frendo<br/>Contact:
+			<a href="patrickfrendo@stcmalta.edu.mt"> patrickfrendo@stcmalta.edu.mt</a>
+		</footer>
+	</body>
+</html>
